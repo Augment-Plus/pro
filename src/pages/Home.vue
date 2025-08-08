@@ -1,6 +1,6 @@
 <template>
   <p>
-    Home View <br />
+    Home View Here <br />
     goto <router-link to="/admin">Admin</router-link>
   </p>
 </template>
