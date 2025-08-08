@@ -17,6 +17,7 @@ async function boot() {
 
     // Proceed with user-specific operations
     console.info("User ID:", user.uid);
+    console.info("ppppppppppppppppppppppppppppppp");
   } catch (error) {
     console.error("Authentication Failed:", error);
   }
