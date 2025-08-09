@@ -1,5 +1,3 @@
-import axios from "axios";
-
 const config = {
   app: {
     id: "pro",
@@ -7,13 +5,4 @@ const config = {
   },
 };
 
-function getAppInfo() {
-  return config.app;
-}
-
-function configureAxios() {
-}
-
-configureAxios();
-
-export default { getAppInfo, axios };
+export default config;
