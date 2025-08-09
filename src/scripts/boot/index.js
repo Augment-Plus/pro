@@ -9,7 +9,7 @@ async function boot() {
   // Perform any necessary initialization here
   const domainData = await domain.getData();
 
-  console.info("ppppppppppppppppppppppppppppppp");
+  console.info("ppppppppppppppppppppppppppppppplll");
   console.log(domainData, app);
 
   try {
