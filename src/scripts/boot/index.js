@@ -9,6 +9,7 @@ async function boot() {
   // Perform any necessary initialization here
   const domainData = await domain.getData();
 
+  console.info("ppppppppppppppppppppppppppppppp");
   console.log(domainData, app);
 
   try {
@@ -17,7 +18,6 @@ async function boot() {
 
     // Proceed with user-specific operations
     console.info("User ID:", user.uid);
-    console.info("ppppppppppppppppppppppppppppppp");
   } catch (error) {
     console.error("Authentication Failed:", error);
   }
